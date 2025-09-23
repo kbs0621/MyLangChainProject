@@ -1,3 +1,2 @@
 .env
-
-01RAG/faiss_index
+01RAG/faiss_index/**
