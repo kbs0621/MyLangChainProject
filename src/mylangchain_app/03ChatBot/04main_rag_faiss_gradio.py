@@ -1,3 +1,4 @@
+#poetry add gradio_pdf
 # 환경 변수에서 API 키 가져오기
 import os
 from dotenv import load_dotenv

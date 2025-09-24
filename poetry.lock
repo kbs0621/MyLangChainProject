@@ -1498,6 +1498,23 @@ typing-extensions = ">=4.0,<5.0"
 websockets = ">=10.0,<16.0"
 
 [[package]]
+name = "gradio-pdf"
+version = "0.0.22"
+description = "Easily display PDFs in Gradio"
+optional = false
+python-versions = ">=3.8"
+groups = ["main"]
+files = [
+    {file = "gradio_pdf-0.0.22-py3-none-any.whl", hash = "sha256:6f710eca3464d2d37aee742eb2f10dbe76772ebe5dfcfb993da40c710c9ad1b5"},
+]
+
+[package.dependencies]
+gradio = ">=4.0,<6.0"
+
+[package.extras]
+dev = ["build", "twine"]
+
+[[package]]
 name = "greenlet"
 version = "3.2.4"
 description = "Lightweight in-process concurrent programming"
@@ -7688,4 +7705,4 @@ cffi = ["cffi (>=1.17,<2.0) ; platform_python_implementation != \"PyPy\" and pyt
 [metadata]
 lock-version = "2.1"
 python-versions = "<3.15,>=3.10"
-content-hash = "bfb46c3f7919be92ab2eac1dfec0acdf233dfcaa5d96e1b50c509b838ad48e69"
+content-hash = "8017b8788f6df591087d682a96b65434400f42a537209ddd150a61bd3ba5907a"
